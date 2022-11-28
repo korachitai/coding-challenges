@@ -1,0 +1,28 @@
+@import url("reset.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    min-height: 100hv;
+    background: linear-gradient(to right, #333399, #ff00cc);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-card{
+    width: 450px;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 4rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+.login-card:before{
+    content: '';
+    position: absolute;
+    background: red;
+    inset: 0;
+    transform: rotate(-5px);
+}
