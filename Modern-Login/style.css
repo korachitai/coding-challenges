@@ -116,3 +116,49 @@ body{
     transition: background .5s;
 }
 
+.login-card input:focus{
+    background: white;
+}
+
+.login-card input[type="checkbox"]{
+    height: 16px;
+    width: 16px;
+    accent-color: black;
+}
+
+.login-card-form button{
+    background: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 100px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: background .5s;
+}
+
+.login-card-form button:hover{
+    background-color: rgba(0, 0, 0, .85);
+    cursor: pointer;
+}
+
+.login-card-social{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.login-card-social > div{
+    opacity: .8;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: calc(1rem * .8);
+}
+
+.login-card-social-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
